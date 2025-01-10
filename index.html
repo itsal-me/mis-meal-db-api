@@ -6,6 +6,7 @@
     <title>Meal Recipie Search Application</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
 </head>
 <body class="flex flex-col min-h-screen">
     <header class="bg-yellow-800 text-white text-center py-4">
@@ -23,12 +24,16 @@
         <div class="container mx-auto">
             <div class="mb-4 flex justify-center items-center">
                 <input type="text" id="search-input" class="w-1/2 px-4 py-2 border rounded-md" placeholder="Search for a meal...">
-                <button id="search-btn" class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 mb-4">Search</button>
+                <button id="search-btn" class="bg-yellow-500 text-white px-4 py-2 rounded-md hover:bg-yellow-600 mb-4">Search</button>
             </div>
            
             <div id="results" class="grid grid-cols-1 md:grid-cols-3 gap-6"></div>
             <button id="show-all-btn" class="bg-yellow-500 text-white px-4 py-2 rounded-md mt-4">Show All</button>
         </div>
     </main>
+
+    <footer class="bg-yellow-800 text-white text-center py-4">
+        <p>&copy; 2025 Meal Recipie Search. All rights reserved.</p>
+    </footer>
 </body>
 </html>
